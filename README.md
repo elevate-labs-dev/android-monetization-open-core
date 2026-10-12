@@ -25,4 +25,6 @@ On macOS/Linux use ./gradlew; if necessary run chmod +x gradlew first. Installat
 
 The mock sample should report a successful mock purchase. The [separate consumer app](examples/consumer-app/README.md) exercises LOCKED -> mock ACTIVE -> reset LOCKED; its state is in-memory demonstration state, not durable authorization.
 
+Run the root and consumer builds sequentially: they reference the same SDK module output directories. Concurrent Gradle builds can interfere with those outputs.
+
 Read [limitations](docs/LIMITATIONS.md) and [feedback](FEEDBACK.md). Feedback activation remains pending for this local candidate. Free updates are infrequent and no response-time SLA is promised. This is not a production billing release.
