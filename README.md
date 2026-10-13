@@ -27,4 +27,4 @@ The mock sample should report a successful mock purchase. The [separate consumer
 
 Run the root and consumer builds sequentially: they reference the same SDK module output directories. Concurrent Gradle builds can interfere with those outputs.
 
-Read [limitations](docs/LIMITATIONS.md) and [feedback](FEEDBACK.md). Feedback activation remains pending for this local candidate. Free updates are infrequent and no response-time SLA is promised. This is not a production billing release.
+Read [limitations](docs/LIMITATIONS.md) and [feedback](FEEDBACK.md). Voluntary GitHub feedback intake is active. Free updates are infrequent and no response-time SLA is promised. This is not a production billing release.
